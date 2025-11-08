@@ -1,0 +1,7 @@
+cryptos:
+  - BTC
+  - ETH
+  - XRP
+fetch_interval: 300  # seconds
+prediction_model: "LSTM"
+trade_amount: 100  # USD per trade
