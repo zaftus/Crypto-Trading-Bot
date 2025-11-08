@@ -1,0 +1,5 @@
+library(ggplot2)
+btc <- read.csv("data/btc_data.csv")
+eth <- read.csv("data/eth_data.csv")
+xrp <- read.csv("data/xrp_data.csv")
+ggplot(btc, aes(x=timestamp, y=price)) + geom_line(color='blue')
